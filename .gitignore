@@ -1,0 +1,4 @@
+.DS_Store
+/foldername
+
+이름은 꼭 .gitignore 로 해야 함. 히든 파일들 커밋에서 제외 가능.
