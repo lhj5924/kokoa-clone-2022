@@ -1,0 +1,13 @@
+
+@keyframes focusLarge {
+  from {
+    transform: none;
+  }
+  to {
+    -moz-text-decoration-color: burlywood;
+  }
+}
+
+i:hover {
+  animation: focusLarge 2s ease-in-out forwards;
+}

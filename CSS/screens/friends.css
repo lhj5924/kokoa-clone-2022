@@ -1,0 +1,109 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 10px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+#friends-display-link i {
+  color:rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen__channel--header {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0,0,0,0.5);
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden; /*마우스에 걸리지 않게 빠짐. 숨기거나 html을 제거하려면 자바스크립트 사용.*/
+  }
+}
+
+#splash-screen {
+  background-color: var(--beige);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:132px;
+  color:var(--green);
+  animation: hideSplashScreen 0.5s ease-in-out forwards; /* forwards 로 애니메이션의 마지막 keyframe을 기억함!!! 유지시킴.*/ 
+  animation-delay: 1s; /*delya 시간 후에 애니메이션이 실행됨*/ 
+}
+
+.nav__btn--friends {
+  transform: translateY(60px);
+  animation: appearBtnAnimation 0.3s ease-in-out forwards;
+}
+.nav__btn--friends:first-child {
+  animation-delay: 1.3s;
+}
+.nav__btn--friends:nth-child(2){
+  animation-delay: 1.5s;
+}
+.nav__btn--friends:nth-child(3){
+  animation-delay: 1.7s;
+}
+.nav__btn--friends:last-child{
+  animation-delay: 1.9s;
+}
+
+
+@keyframes shakeIcon {
+  from {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+
+  to {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+#splash-screen i {
+  animation: shakeIcon 1s ease-in-out;
+}
