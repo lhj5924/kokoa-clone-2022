@@ -1,6 +1,6 @@
 # Kokoa Clone 2022 Lecture
 
-HTML & CSS are so much fun!
+## HTML & CSS 을 이용한 카카오톡 클론코딩
 
 - README.md(markdown은 서식이 있는 문서를 작성하는 것)
 - README 파일은 모든 git repository가 가지고 있어야 되는 파일이다.
