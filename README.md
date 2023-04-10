@@ -2,18 +2,23 @@
 
 ## HTML & CSS 을 이용한 카카오톡 클론코딩
 
-- README.md(markdown은 서식이 있는 문서를 작성하는 것)
-- README 파일은 모든 git repository가 가지고 있어야 되는 파일이다.
-- "#"은 마크다운에서 제목을 만들 때 사용한다.
-- publish는 게시
-- commit은 이 repository의 버전을 저장하는 시점. 지금 이 시점의 파일 버전을 저장하는 것.
-- commit을 하려면 commit의 타이틀이 필요하다
-- commit을 한 후 push를 해줘야 github 웹사이트에서도 반영이 된다.
+- 모바일 버전 화면으로 확인하세요!
 
-순서
+- 이미지
 
-1. 파일을 변경한 다음 저장해주고
-2. github desktop으로 가면 좌측에 파일이 나타난다.
-3. 파일을 체크해주고,
-4. commit의 타이틀을 적어주고, commit의 버튼을 눌러 준다.
-5. 마지막으로 push를 해준다.
+1. 친구 목록
+
+![image](https://user-images.githubusercontent.com/76608100/230817713-ecbcb150-48c3-4ce1-b24c-4f0b419963ba.png)
+
+
+2. 채팅창
+
+![image](https://user-images.githubusercontent.com/76608100/230817771-29abff0a-f6a5-47b2-bc31-37db1d04d2d5.png)
+
+3. 검색 화면
+
+![image](https://user-images.githubusercontent.com/76608100/230817865-92900eaf-4e62-4907-b2ae-bee25e72c1e9.png)
+
+4. 설정 화면
+
+![image](https://user-images.githubusercontent.com/76608100/230817887-6598949f-fa3a-4a0d-9e84-0a79233c200c.png)
