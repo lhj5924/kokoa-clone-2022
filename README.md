@@ -2,6 +2,8 @@
 
 ## HTML & CSS 을 이용한 카카오톡 클론코딩
 
+https://lhj5924.github.io/kokoa-clone-2022/more.html
+
 - 모바일 버전 화면으로 확인하세요!
 
 - 이미지
